@@ -1,5 +1,5 @@
 .main {
-  min-height: 100vh;
+  min-height: calc(100vh - 15px);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -8,5 +8,5 @@
 .wrapper {
   width: 100%;
   max-width: 1200px;
-  padding-top: 130px;
+  padding-top: 120px;
 }
