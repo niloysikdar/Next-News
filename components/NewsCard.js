@@ -19,7 +19,7 @@ const NewsCard = ({ news }) => {
         <p className={styles.author}>Author: {news.author}</p>
         <p className={styles.date}>Date: {date}</p>
 
-        <a href={news.url} target='_blank' className={styles.readmore}>
+        <a href={news.url} target='_blank' rel='noreferrer' className={styles.readmore}>
           Read More
         </a>
       </div>
